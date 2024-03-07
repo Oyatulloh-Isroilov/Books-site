@@ -1,0 +1,224 @@
+.signin {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.signHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.accountMenu {
+  display: flex;
+  gap: 32px;
+  width: 200px;
+  align-items: center;
+}
+
+.accountMenu .signinBtn {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+}
+
+.registerBtn {
+  background: #fff;
+  border-radius: 18px;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.7s ease;
+}
+
+.registerBtn:hover {
+  color: #fff;
+  background: transparent;
+}
+
+.accountMenu .signinBtn:hover::after {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  transition: all 0.7s ease;
+}
+
+.heroImg {
+  margin-right: 183px;
+  height: 100%;
+}
+
+.signHero {
+  display: flex;
+}
+
+.inputs {
+  display: flex;
+  width: 100%;
+}
+
+.heroAccountBar {
+  text-align: center;
+  width: 490px;
+  margin-top: 207px;
+}
+
+.signin .heroAccountBar h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.heroAccountBar input {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  color: rgb(94, 94, 94);
+  padding: 19px 191px 18px 27px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.heroAccountBar button {
+  width: 100%;
+  color: rgb(1, 0, 0);
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 108.69%;
+  text-align: center;
+  padding: 17px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.emailInp {
+  margin-bottom: 22px;
+  margin-top: 58px;
+}
+
+.signHero .passwordInp {
+  margin-bottom: 50px;
+}
+
+.heroAccountBar p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.heroAccountBar a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 23px;
+  text-decoration: none;
+}
+
+.register {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.heroAccountBar h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.regHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regHero {
+  display: flex;
+}
+
+.accountMenu .registerBtnreg {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+}
+
+.signinBtnReg {
+  background: #fff;
+  border-radius: 18px;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.7s ease;
+}
+
+.accountMenu .registerBtnreg:hover::after {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  transition: all 0.7s ease;
+}
+
+.regHero .passwordInp {
+  margin-bottom: 22px;
+}
+
+.register .regHero .repeatPasswordInp {
+  margin-bottom: 50px;
+}
+
+.container {
+  display: grid;
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.card {
+  margin: 0;
+  width: 350px;
+  height: 600px;
+  margin-bottom: 150px;
+}
+
+button {
+  width: 250px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: #fff;
+  outline: none;
+  border: none;
+  background: rgb(0, 0, 0);
+}
